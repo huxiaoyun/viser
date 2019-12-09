@@ -19,8 +19,37 @@ export default [
     type: 'slider',
     case: ['json', 'react', 'vue', 'angular'],
   },
+  // flyvv
   {
-    type: 'general-graph',
+    type: 'force-directed-layout-1',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'force-directed-layout-2',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'force-directed-layout-3',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'force-directed-layout-4',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'force-directed-layout-5',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'force-directed-layout-6',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'fruchterman-layout-1',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'fruchterman-layout-2',
     case: ['json', 'react', 'vue', 'angular'],
   },
   {
@@ -39,10 +68,10 @@ export default [
     type: 'dagre-layout-1',
     case: ['json', 'react', 'vue', 'angular'],
   },
-  {
-    type: 'dagre-layout-2',
-    case: ['json', 'react', 'vue', 'angular'],
-  },
+  // {
+  //   type: 'dagre-layout-2',
+  //   case: ['json', 'react', 'vue', 'angular'],
+  // },
   
   // tree graph
   {
