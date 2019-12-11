@@ -13,7 +13,7 @@ export default [
   },
   {
     type: 'viser-graph-1',
-    case: ['json', 'react', 'vue', 'angular'],
+    case: ['json', 'react', 'vueGraph', 'angular'],
   },
   {
     type: 'slider',
@@ -50,28 +50,41 @@ export default [
   },
   {
     type: 'fruchterman-layout-2',
+  },
+  // general graph
+  {
+    type: 'ForceDirectedLayout-1',
     case: ['json', 'react', 'vue', 'angular'],
   },
+  // general graph
   {
-    type: 'grid-1',
+    type: 'Grid-1',
     case: ['json', 'react', 'vue', 'angular'],
   },
+  // general graph
   {
-    type: 'grid-2',
+    type: 'Grid-2',
     case: ['json', 'react', 'vue', 'angular'],
   },
+  // general graph
   {
-    type: 'circular-layout-1',
+    type: 'CircularLayout-1',
     case: ['json', 'react', 'vue', 'angular'],
   },
+  // general graph
   {
-    type: 'dagre-layout-1',
+    type: 'DagreLayout-1',
     case: ['json', 'react', 'vue', 'angular'],
   },
   // {
   //   type: 'dagre-layout-2',
   //   case: ['json', 'react', 'vue', 'angular'],
   // },
+  // general graph
+  {
+    type: 'DagreLayout-2',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
   
   // tree graph
   {
@@ -131,6 +144,41 @@ export default [
   // tree graph
   {
     type: 'RadialTree-2',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  // tree graph
+  {
+    type: 'CustomTreeItems-1',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  // tree graph
+  {
+    type: 'CustomTreeItems-2',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  // shape
+  {
+    type: 'Built-in Nodes-1',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'Built-in Nodes-2',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'Built-in Nodes-3',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'Built-in Nodes-4',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'Built-in Nodes-5',
+    case: ['json', 'react', 'vue', 'angular'],
+  },
+  {
+    type: 'Built-in Nodes-6',
     case: ['json', 'react', 'vue', 'angular'],
   },
 ];
